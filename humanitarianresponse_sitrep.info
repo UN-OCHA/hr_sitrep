@@ -1,0 +1,6 @@
+name = HumanitarianResponse SitRep
+description = HumanitarianResponse - SitRep
+core = 7.x
+package = Humanitarianresponse
+project = humanitarianresponse_sitrep
+features[features_api][] = api:1
