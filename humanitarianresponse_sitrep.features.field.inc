@@ -18,6 +18,9 @@ function humanitarianresponse_sitrep_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_cluster',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -53,7 +56,20 @@ function humanitarianresponse_sitrep_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'taxonomy',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
+          'type' => 'taxonomy_term_reference_link',
+          'weight' => '5',
+        ),
+        'diff_complete' => array(
+          'label' => 'above',
+          'module' => 'taxonomy',
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'taxonomy_term_reference_link',
           'weight' => '5',
         ),
@@ -117,8 +133,22 @@ function humanitarianresponse_sitrep_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'text_default',
+          'weight' => '2',
+        ),
+        'diff_complete' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+            'trim_length' => 600,
+          ),
+          'type' => 'text_trimmed',
           'weight' => '2',
         ),
         'teaser' => array(
@@ -184,8 +214,22 @@ function humanitarianresponse_sitrep_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'text_default',
+          'weight' => '0',
+        ),
+        'diff_complete' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+            'trim_length' => 600,
+          ),
+          'type' => 'text_trimmed',
           'weight' => '0',
         ),
         'teaser' => array(
@@ -251,8 +295,22 @@ function humanitarianresponse_sitrep_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'text_default',
+          'weight' => '1',
+        ),
+        'diff_complete' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+            'trim_length' => 600,
+          ),
+          'type' => 'text_trimmed',
           'weight' => '1',
         ),
         'teaser' => array(
