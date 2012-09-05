@@ -28,7 +28,7 @@ function humanitarianresponse_sitrep_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'auto_entitylabel_pattern_node_hr_sitrep';
-  $strongarm->value = 'Cluster Update: [node:field_cluster]';
+  $strongarm->value = 'Situation Report: [node:field_cluster]';
   $export['auto_entitylabel_pattern_node_hr_sitrep'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -119,7 +119,17 @@ function humanitarianresponse_sitrep_strongarm() {
       ),
     ),
     'extra_fields' => array(
-      'form' => array(),
+      'form' => array(
+        'title' => array(
+          'weight' => '0',
+        ),
+        'path' => array(
+          'weight' => '8',
+        ),
+        'workflow' => array(
+          'weight' => '7',
+        ),
+      ),
       'display' => array(),
     ),
   );
