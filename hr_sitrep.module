@@ -4,4 +4,4 @@
  * Code for the Humanitarian Response SitRep feature.
  */
 
-include_once 'humanitarianresponse_sitrep.features.inc';
+include_once 'hr_sitrep.features.inc';

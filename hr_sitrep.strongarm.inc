@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * humanitarianresponse_sitrep.strongarm.inc
+ * hr_sitrep.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function humanitarianresponse_sitrep_strongarm() {
+function hr_sitrep_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * humanitarianresponse_sitrep.features.field.inc
+ * hr_sitrep.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function humanitarianresponse_sitrep_field_default_fields() {
+function hr_sitrep_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-hr_sitrep-field_cluster'.
