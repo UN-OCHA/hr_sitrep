@@ -212,6 +212,9 @@ function hr_sitrep_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_crf_gaps',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -270,7 +273,33 @@ function hr_sitrep_field_default_fields() {
       'label' => 'Gaps',
       'required' => 1,
       'settings' => array(
-        'text_processing' => '0',
+        'better_formats' => array(
+          'allowed_formats' => array(
+            'filtered_html' => 'filtered_html',
+            'full_html' => 'full_html',
+            'plain_text' => 'plain_text',
+            'simple' => 'simple',
+          ),
+          'allowed_formats_toggle' => 0,
+          'default_order_toggle' => 0,
+          'default_order_wrapper' => array(
+            'formats' => array(
+              'filtered_html' => array(
+                'weight' => '0',
+              ),
+              'full_html' => array(
+                'weight' => '0',
+              ),
+              'plain_text' => array(
+                'weight' => '10',
+              ),
+              'simple' => array(
+                'weight' => '0',
+              ),
+            ),
+          ),
+        ),
+        'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
@@ -293,6 +322,9 @@ function hr_sitrep_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_crf_hum_needs',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -351,7 +383,33 @@ function hr_sitrep_field_default_fields() {
       'label' => 'Humanitarian Needs',
       'required' => 1,
       'settings' => array(
-        'text_processing' => '0',
+        'better_formats' => array(
+          'allowed_formats' => array(
+            'filtered_html' => 'filtered_html',
+            'full_html' => 'full_html',
+            'plain_text' => 'plain_text',
+            'simple' => 'simple',
+          ),
+          'allowed_formats_toggle' => 0,
+          'default_order_toggle' => 0,
+          'default_order_wrapper' => array(
+            'formats' => array(
+              'filtered_html' => array(
+                'weight' => '0',
+              ),
+              'full_html' => array(
+                'weight' => '0',
+              ),
+              'plain_text' => array(
+                'weight' => '10',
+              ),
+              'simple' => array(
+                'weight' => '0',
+              ),
+            ),
+          ),
+        ),
+        'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
@@ -374,6 +432,9 @@ function hr_sitrep_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_crf_hum_response',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -432,7 +493,33 @@ function hr_sitrep_field_default_fields() {
       'label' => 'Humanitarian Response',
       'required' => 1,
       'settings' => array(
-        'text_processing' => '0',
+        'better_formats' => array(
+          'allowed_formats' => array(
+            'filtered_html' => 'filtered_html',
+            'full_html' => 'full_html',
+            'plain_text' => 'plain_text',
+            'simple' => 'simple',
+          ),
+          'allowed_formats_toggle' => 0,
+          'default_order_toggle' => 0,
+          'default_order_wrapper' => array(
+            'formats' => array(
+              'filtered_html' => array(
+                'weight' => '0',
+              ),
+              'full_html' => array(
+                'weight' => '0',
+              ),
+              'plain_text' => array(
+                'weight' => '10',
+              ),
+              'simple' => array(
+                'weight' => '0',
+              ),
+            ),
+          ),
+        ),
+        'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
