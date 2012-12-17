@@ -145,7 +145,7 @@ function hr_sitrep_field_default_fields() {
             'diff_custom_settings' => array(),
           ),
           'type' => 'text_default',
-          'weight' => 6,
+          'weight' => '6',
         ),
         'teaser' => array(
           'label' => 'above',
