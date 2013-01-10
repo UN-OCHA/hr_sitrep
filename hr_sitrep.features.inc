@@ -20,7 +20,7 @@ function hr_sitrep_ctools_plugin_api() {
 function hr_sitrep_node_info() {
   $items = array(
     'hr_sitrep' => array(
-      'name' => t('Situation Report'),
+      'name' => t('Situation Report Information'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
