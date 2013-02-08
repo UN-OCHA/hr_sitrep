@@ -135,6 +135,9 @@ function hr_sitrep_strongarm() {
         'workflow' => array(
           'weight' => '7',
         ),
+        'workbench_access' => array(
+          'weight' => '0',
+        ),
       ),
       'display' => array(),
     ),
