@@ -20,7 +20,6 @@ datestamp = 1342528276
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[field][] = node-hr_sitrep-field_cluster
-features[field][] = node-hr_sitrep-field_comments
 features[field][] = node-hr_sitrep-field_crf_gaps
 features[field][] = node-hr_sitrep-field_crf_hum_needs
 features[field][] = node-hr_sitrep-field_crf_hum_response
