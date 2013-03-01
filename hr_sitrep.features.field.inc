@@ -95,7 +95,7 @@ function hr_sitrep_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => '2',
+        'weight' => '3',
       ),
     ),
   );
@@ -208,7 +208,7 @@ function hr_sitrep_field_default_fields() {
           'rows' => '5',
         ),
         'type' => 'text_textarea',
-        'weight' => '5',
+        'weight' => '8',
       ),
     ),
   );
@@ -321,7 +321,7 @@ function hr_sitrep_field_default_fields() {
           'rows' => '5',
         ),
         'type' => 'text_textarea',
-        'weight' => '3',
+        'weight' => '6',
       ),
     ),
   );
@@ -434,7 +434,7 @@ function hr_sitrep_field_default_fields() {
           'rows' => '5',
         ),
         'type' => 'text_textarea',
-        'weight' => '4',
+        'weight' => '7',
       ),
     ),
   );
@@ -476,7 +476,7 @@ function hr_sitrep_field_default_fields() {
       'bundle' => 'hr_sitrep',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => '',
+      'description' => 'A key number related to your cluster that you would like to highlight in the situation report',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -539,7 +539,7 @@ function hr_sitrep_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '9',
+        'weight' => '4',
       ),
       'workbench_access_field' => 0,
     ),
@@ -581,7 +581,7 @@ function hr_sitrep_field_default_fields() {
       'bundle' => 'hr_sitrep',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => '',
+      'description' => 'Provide a description of what the number is that you have provided',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -646,7 +646,7 @@ function hr_sitrep_field_default_fields() {
           'rows' => '5',
         ),
         'type' => 'text_textarea',
-        'weight' => '10',
+        'weight' => '5',
       ),
       'workbench_access_field' => 0,
     ),
@@ -654,12 +654,14 @@ function hr_sitrep_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('A key number related to your cluster that you would like to highlight in the situation report');
   t('Cluster');
   t('Gaps');
   t('Humanitarian Needs');
   t('Humanitarian Response');
   t('Key Figure');
   t('Key Figure Description');
+  t('Provide a description of what the number is that you have provided');
 
   return $fields;
 }
