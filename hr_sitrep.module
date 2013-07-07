@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Humanitarian Response SitRep feature.
- */
-
-include_once 'hr_sitrep.features.inc';
